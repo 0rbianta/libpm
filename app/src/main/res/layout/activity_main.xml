@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="libpm test app" />
+
+    <Button
+        android:onClick="boot_on_recovery_btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boot on recovery" />
+
+    <Button
+        android:onClick="boot_on_download_mode_btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boot on download mode" />
+
+    <Button
+        android:onClick="reboot_btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reboot" />
+
+    <Button
+        android:onClick="shutdown_btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shutdown" />
+
+</LinearLayout>
